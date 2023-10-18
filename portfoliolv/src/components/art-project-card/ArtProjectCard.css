@@ -1,0 +1,59 @@
+.art-project-card{
+    float: left;
+    list-style: none;
+    margin: 20px;
+    height: 600px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: rgb(85, 24, 93);
+}
+
+.art-project-card img{
+    width: 100%;
+}
+
+.project-img{
+    width: 100%;
+    border-radius: 10px;
+    width: 100%;
+    height: 80%;
+    object-fit:cover;
+}
+
+
+.info{
+    position: relative;
+    width: 90%;
+    height: 40%;
+    left: 5%;
+}
+
+.art-project-card h1{
+    margin: 0;
+    color: rgb(255, 213, 36);
+    font-size: 200%;
+    text-align: center;
+}
+
+.art-project-card h3{
+    margin: 0.00vh;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 135%;
+}
+
+.art-project-card h3.year-text{
+    margin: 1vh;
+    float: right;
+    font-weight: 600;
+    font-size: 150%;
+    color: rgb(255, 255, 255);
+}
+
+
+.info .link{
+    position: relative;
+    bottom: -35px;
+    text-align: right;
+    margin: 0;
+}

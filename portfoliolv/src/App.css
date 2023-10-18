@@ -1,0 +1,81 @@
+.App {
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
+  background-color: rgb(255, 233, 193);
+  z-index: 10;
+}
+
+.topnav {
+  position: sticky;
+  top: 0%;
+  background-color: rgb(85, 24, 93);
+  width: 100vw;
+  
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.topnav a.resume{
+  float: right;
+  padding-right: 15vw;
+}
+
+.topnav a.portfolio{
+  float: left;
+  padding-left: 15vw;
+}
+
+.banner{
+  width: 90vw;
+  height: 25vh;
+  margin-bottom: 15vh;
+  margin-top: 6.5vh;
+}
+
+.banner h1{
+  color: rgb(17, 17, 17);
+  position: relative;
+  top: 1.9vh;
+  font-size: 140px;
+  letter-spacing: 0.5vw;
+  text-transform:uppercase;
+  text-align: center;
+  font-weight: 550;
+  transform: scaleY(2.5);
+  font-stretch:wider;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+
+.banner-professions img.banner-image{
+width: 70vw;
+z-index: -1;
+}
+
+.banner-professions h1{
+  font-size: 60px;
+  margin: -04vh;
+  z-index: 1;
+
+}
+.banner-professions h1.profession1{
+  text-align: left;
+  }
+
+.banner-professions h1.profession2{
+  text-align: center;
+  }
+  
+  .banner-professions h1.profession3{
+    text-align: right;
+    }

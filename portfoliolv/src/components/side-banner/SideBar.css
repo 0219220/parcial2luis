@@ -1,0 +1,130 @@
+.side-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding: 15px 10%;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+.side-bar h1{
+    margin: 0;
+    font-size: 1.5rem;
+    color: white;
+
+}
+.side-bar .nav-bar-btn{
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0 20px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.side-bar .nav-bar-btn:hover{
+    color: rgba(255, 255, 255, 1);
+}
+.side-bar svg{
+    color: white;
+}
+
+.side-bar-btns{
+    position: fixed;
+    top: 8vh;
+    right: 0;
+    height: 72vh;
+    width: 70vw;
+    min-width: 60%;
+    background-color: rgb(129, 139, 166);
+    transition: all 1s ease;
+    transform: translate(100%, 0);
+    z-index: 11;
+    border: 3px solid black;
+
+}
+
+.menu-icon{
+    top: 60vh;
+    right: -10.5vw;
+}  
+
+.side-bar-btns.opened{
+    transform: translate(0%, 0);
+}
+
+.side-bar .nav-bar-btn{
+    width: 100%;
+    padding: 0 10%;
+    margin: 20px 0;
+}
+
+.close-icon{
+    float: left;
+
+}  
+
+.container1 img{
+    position: relative;
+    right: 0.5%;
+    max-height: 55vh;
+    align-self: center;
+}
+
+.side-bar-btns .container1{
+    padding: 20px;
+    clear:right;
+    height: 55vh;
+}
+
+.container2 .left{
+    float:left;
+    width:50%;
+    padding-left: 10px;
+}
+
+.container1 .left{
+    float:left;
+    width:25%;
+    min-width: none;
+}
+
+.container1 .right{
+    float:left;
+    width:70%;
+    margin: 1%;
+}
+
+.side-bar-btns .bio{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.side-bar-btns .container1 h1{
+    text-align: center;
+    font-size:73px;
+    text-transform:uppercase;
+    font-weight: 700;
+    letter-spacing:2px;
+}  
+
+.side-bar-btns .container2{
+    top: 80%;
+    clear: left;
+    background-color: rgb(21, 35, 72);
+}
+
+.container2 img{
+    width: 40px;
+    padding: 10px;
+}
+.side-bar-btns b{
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(240, 240, 240);
+}
+
+.side-bar-btns h2{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(240, 240, 240);
+}
