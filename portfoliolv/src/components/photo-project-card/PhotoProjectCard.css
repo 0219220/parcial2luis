@@ -2,8 +2,8 @@
     float: left;
     list-style: none;
     margin: 20px;
-    height: 600px;
-    width: 600px;
+    height: 400px;
+    width: 500px;
     border-radius: 10px;
     background-color: rgb(85, 24, 93);
 }
@@ -29,14 +29,14 @@
 }
 
 
-.art-project-card h3{
+.photo-project-card h3{
     margin: 0.00vh;
     color: rgb(255, 255, 255);
     font-weight: 600;
     font-size: 135%;
 }
 
-.art-project-card h3.year-text{
+.photo-project-card h3.year-text{
     margin: 1vh;
     float: right;
     font-weight: 600;

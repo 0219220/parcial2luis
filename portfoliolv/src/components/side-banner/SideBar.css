@@ -1,6 +1,6 @@
 .side-bar{
     position: fixed;
-    top: 0;
+    top: -30vh;
     left: 0;
     width: 80%;
     padding: 15px 10%;
@@ -32,21 +32,21 @@
 
 .side-bar-btns{
     position: fixed;
-    top: 8vh;
+    top: 33vh;
     right: 0;
-    height: 72vh;
-    width: 70vw;
+    height: 45.7vh;
+    width: 50vw;
     min-width: 60%;
-    background-color: rgb(129, 139, 166);
+    background-color: rgb(236, 182, 2);
     transition: all 1s ease;
     transform: translate(100%, 0);
     z-index: 11;
-    border: 3px solid black;
+    border: 3px solid white;
 
 }
 
 .menu-icon{
-    top: 60vh;
+    top: 96vh;
     right: -10.5vw;
 }  
 
@@ -65,23 +65,27 @@
 
 }  
 
-.container1 img{
+.container1 img.biopp{
     position: relative;
     right: 0.5%;
     max-height: 55vh;
     align-self: center;
+    border: 3px solid white;
 }
+
+.container1 img{
+    position: relative;
+    right: 0.5%;
+    max-height: 55vh;
+    width: 100%;
+    align-self: center;
+}
+
 
 .side-bar-btns .container1{
     padding: 20px;
     clear:right;
     height: 55vh;
-}
-
-.container2 .left{
-    float:left;
-    width:50%;
-    padding-left: 10px;
 }
 
 .container1 .left{
@@ -97,7 +101,7 @@
 }
 
 .container1 .right{
-    float:left;
+    float:right;
     width:35%;
     margin: 1%;
 }
@@ -108,7 +112,7 @@
 }
 .side-bar-btns .container1 h1{
     text-align: center;
-    font-size:73px;
+    font-size:54px;
     text-transform:uppercase;
     font-weight: 700;
     letter-spacing:2px;
@@ -120,7 +124,7 @@
     background-color: rgb(21, 35, 72);
 }
 
-.container2 img{
+.right img{
     width: 40px;
     padding: 10px;
 }
@@ -134,4 +138,15 @@
     font-weight: 500;
     font-size: 20px;
     color: rgb(240, 240, 240);
+}
+
+.socials{
+    position: absolute;
+    bottom: 1.3vh;
+}
+.logos{
+    position: absolute;
+    bottom: 1vh;
+    right: 3vw;
+
 }

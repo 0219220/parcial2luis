@@ -45,10 +45,8 @@ import f25 from "./assets/photos/f25.jpg"
 
 import lvbanner from "./assets/lvbanner.png";
 import bannerimgs from "./assets/bannerimgs.png";
-import jke from "./assets/jokereyes.jpg";
-import phe from "./assets/photoeyes.jpg";
-import ywe from "./assets/youngeyes1.jpg";
-
+import experiencecard from "./assets/experiencecard.png";
+import educationcard from "./assets/educationcard.png";
 function App() {
 
   const [artprojects, setArtProjects] = useState(
@@ -100,8 +98,8 @@ function App() {
     <div className="App">
     <SideBar/>
     <div class="topnav">
-      <a className="portfolio" href="#portfolio">Portfolio</a>
-      <a className="resume" href='#resume'>Resume</a>
+      <a className="portfolio" href="#portfolio">PORTFOLIO</a>
+      <a className="resume1" href='#resume'>RESUME</a>
     </div>
     <div className='banner'>
     <img src={lvbanner}></img>
@@ -109,8 +107,8 @@ function App() {
     <div className='banner-professions' >
     <img src={bannerimgs}></img>
     </div>
-    <h1>Hello, I am a content creator. I love portraiture and to capture intense moments.</h1>
-    <div><h1 id='portfolio'>Illustrations</h1></div>
+    <h1>Hello, I am a audioivisual content producer. I love portraiture and to capture intense moments.</h1>
+    <div><h1 id='portfolio' className='section-title'>ILLUSTRATIONS</h1></div>
 
     <div className='artlist'>
     <ul>
@@ -123,7 +121,7 @@ function App() {
 
     </div>
 
-    <div><h1>Photography</h1></div>
+    <div><h1 className='section-title'>PHOTOGRAPHY</h1></div>
     <div className='artlist'>
     <ul>
           {
@@ -135,7 +133,14 @@ function App() {
 
     </div>
 
-    <div id='resume'><h1>Resume</h1></div>
+    <div id='resume' className='resume'><h1 className='section-title'>RESUME</h1>
+    <h2 className='resume-section'>EXPERIENCE</h2>
+
+    <img src={experiencecard}></img>
+    <h2 className='resume-section'>EDUCATION</h2>
+    <img src={educationcard} ></img>
+
+    </div>
 
     </div>
   );

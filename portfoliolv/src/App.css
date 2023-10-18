@@ -25,7 +25,7 @@
   font-size: 30px;
 }
 
-.topnav a.resume{
+.topnav a.resume1{
   float: right;
   padding-right: 15vw;
 }
@@ -58,7 +58,7 @@
 }
 
 .banner img{
-  width: 70vw;
+  width: 60vw;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -66,7 +66,7 @@
   }
 
 .banner-professions img{
-  width: 70vw;
+  width: 50vw;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -75,17 +75,32 @@
 .banner-professions h1{
   font-size: 60px;
   margin: -04vh;
-  z-index: 1;
 
 }
-.banner-professions h1.profession1{
-  text-align: left;
-  }
 
-.banner-professions h1.profession2{
+.resume img{
+  width: 65vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resume h1{
   text-align: center;
-  }
-  
-  .banner-professions h1.profession3{
-    text-align: right;
-    }
+}
+
+.section-title{
+  font-size: 90px;
+  letter-spacing: 18px;
+  text-align: center;
+  color: rgb(255, 213, 36);
+  text-decoration: overline;
+}
+
+.resume-section{
+  font-size: 55px;
+  letter-spacing: 10px;
+  text-align: left;
+  color: rgb(221, 142, 23);
+  text-indent: -8vw;
+}
