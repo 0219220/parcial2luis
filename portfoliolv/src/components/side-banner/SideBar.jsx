@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './SideBar.css';
 import { Button, IconButton } from '@mui/material';
-import { Close } from '@mui/icons-material'
+import { Close } from '@mui/icons-material';
+import luispp from '../../assets/luispp.jpg';
 
 //import instagram from '../../Assets/instagram-logo.png';
 //import linkedin from '../../Assets/linkedin-logo.png';
@@ -46,7 +47,7 @@ export default class SideBar extends Component {
 
         return (
         <div className='side-bar' style={{backgroundColor: 'rgba(0, 0, 0, ' + scrollToTop+')'}}>
-            <h1>Andres Martinez</h1>            
+            <h1></h1>            
             
             <div className={'side-bar-btns' + (this.state.openMenu ? ' opened' : '')}>
                 <IconButton className="close-icon" onClick={this.handleOnClick}>
@@ -55,26 +56,33 @@ export default class SideBar extends Component {
                                
                 <div className='container1' >
                     <div className='left'>
-                        <img src='' className='iconDetails'></img>
-                    </div>
-                    <div className='right'>
                         <div className='bio'>
                             <h1>Luis Villaseñor</h1>
-                            <div className='left'><h2><b>WHO AM I</b></h2></div> <div className='right'><h2>I am a content producer based in Guadalajara, I am skilled in photo and video editting. </h2></div>
-                            <div className='left'><h2><b>WHAT I DO</b></h2></div>  <div className='right'><h2></h2></div>
+                            <div><h2>I am a content producer based in Guadalajara, I am skilled in photo and video editting and like to work on projects as a producer. </h2></div>
                         </div>
+                    </div>
+                    <div className='center'>
+                        <img src={luispp} className='iconDetails'></img>
+                    </div>
+                    
+                    <div className='right'>
+                        <div>
+                            <h1>CONTACT</h1>
+                            <h2>luisofarabia@gmail.com</h2>
+
+                        </div>
+                        <div>
+                            <h1>SOCIALS</h1>
+
+                            <a href="https://www.instagram.com/luisofarabia/" target='_blank'><img src='{instagram}' alt='instagram'/></a>
+                            <a href="https://www.linkedin.com/in/luis-villase%C3%B1or-219194296/" target='_blank'><img src='/*{linkedin}*/' alt='linkedin'/></a>
+                        </div>
+                    </div>
                     </div>
                 </div>
                 <div className='container2'>
                     <div className='left'>
-                        <h1>CONTACT</h1>
-                        <h2>luisofarabia@gmail.com</h2>
-                    </div>
                     <div className='right'>
-                        <h1>SOCIALS</h1>
-                        <a href="https://instagram.com/andresmtzc10?igshid=OGQ5ZDc2ODk2ZA==" target='_blank'><img src='{instagram}' alt='instagram'/></a>
-                        <a href="https://www.linkedin.com/in/andr%C3%A9s-mart%C3%ADnez-cabrera-562534241" target='_blank'><img src='/*{linkedin}*/' alt='linkedin'/></a>
-                        <a href="https://github.com/Andres15mtzc" target='_blank'><img src='/*{github}*/' alt='github'/></a>
                     </div>
                 </div>
             </div>

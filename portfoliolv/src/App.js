@@ -43,6 +43,8 @@ import f23 from "./assets/photos/f23.jpg"
 import f24 from "./assets/photos/f24.jpg"
 import f25 from "./assets/photos/f25.jpg"
 
+import lvbanner from "./assets/lvbanner.png";
+import bannerimgs from "./assets/bannerimgs.png";
 import jke from "./assets/jokereyes.jpg";
 import phe from "./assets/photoeyes.jpg";
 import ywe from "./assets/youngeyes1.jpg";
@@ -102,15 +104,10 @@ function App() {
       <a className="resume" href='#resume'>Resume</a>
     </div>
     <div className='banner'>
-    <h1>Luis Villaseñor</h1>
+    <img src={lvbanner}></img>
     </div>
     <div className='banner-professions' >
-      <h1 className='profession1'>ILLUSTRATOR</h1>
-      <img className='banner-image' src={jke} alt='???'></img>
-      <h1 className='profession2'>PRODUCER</h1>
-      <img className='banner-image' src={phe} alt='???'></img>
-      <h1 className='profession3'>PHOTOGRAPHER</h1>
-      <img className='banner-image' src={ywe} alt='???'></img>
+    <img src={bannerimgs}></img>
     </div>
     <h1>Hello, I am a content creator. I love portraiture and to capture intense moments.</h1>
     <div><h1 id='portfolio'>Illustrations</h1></div>
@@ -145,3 +142,13 @@ function App() {
 }
 
 export default App;
+
+/*<div>
+<h1 className='profession1'>ILLUSTRATOR</h1>
+<img className='banner-image' src={jke} alt='???'></img>
+<h1 className='profession2'>PRODUCER</h1>
+<img className='banner-image' src={phe} alt='???'></img>
+<h1 className='profession3'>PHOTOGRAPHER</h1>
+<img className='banner-image' src={ywe} alt='???'></img>
+</div>
+*/

@@ -12,8 +12,9 @@
 }
 .side-bar h1{
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: white;
+    float: left;
 
 }
 .side-bar .nav-bar-btn{
@@ -85,13 +86,19 @@
 
 .container1 .left{
     float:left;
+    width:35%;
+    min-width: none;
+}
+
+.container1 .center{
     width:25%;
+    float: left;
     min-width: none;
 }
 
 .container1 .right{
     float:left;
-    width:70%;
+    width:35%;
     margin: 1%;
 }
 
